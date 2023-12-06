@@ -19,8 +19,16 @@ export const data = {
   },
   profilePhotoHeader: assets.photos.profilePhotoHeader,
   socialsHeader: [
-    { img: assets.socialsHeader.github, link: "https://github.com/" },
-    { img: assets.socialsHeader.linkedin, link: "https://linkedin.com/" },
+    {
+      img: assets.socialsHeader.github,
+      imgDark: assets.socialsHeader.githubDark,
+      link: "https://github.com/",
+    },
+    {
+      img: assets.socialsHeader.linkedin,
+      imgDark: assets.socialsHeader.linkedinDark,
+      link: "https://linkedin.com/",
+    },
   ],
   skills: [
     { name: "JAVASCRIPT", img: assets.skills.javaScriptLogo },

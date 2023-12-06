@@ -12,7 +12,10 @@ import figmaLogo from "./skills/figma-logo.png";
 
 /*Socials*/
 import github from "./socials/github.svg";
+import githubDark from "./socials/github-dark.png";
 import linkedin from "./socials/linkedin.svg";
+import linkedinDark from "./socials/linkedin-dark.png";
+
 import twitter from "./socials/twitter.svg";
 import codepen from "./socials/codepen.svg";
 import atsign from "./socials/at-sign.svg";
@@ -32,7 +35,7 @@ export const assets = {
     visualStudioLogo,
     figmaLogo,
   },
-  socialsHeader: { github, linkedin },
+  socialsHeader: { github, linkedin, githubDark, linkedinDark },
   projects: { workintech, journey },
   socials: { twitter, codepen, atsign, instagram },
 };

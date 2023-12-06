@@ -61,6 +61,7 @@
   font-weight: 700;
   line-height: 100%;
   text-align: start;
+  margin-bottom: 24px;
 }
 .project-item-details {
   color: var(--project-text-color);

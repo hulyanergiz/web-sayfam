@@ -118,7 +118,11 @@ const Header = () => {
                     return (
                       <div key={index}>
                         <a href={social.link}>
-                          <img src={social.img} alt="social" />
+                          {theme === "light" ? (
+                            <img src={social.img} alt="social" />
+                          ) : (
+                            <img src={social.imgDark} alt="social" />
+                          )}
                         </a>
                       </div>
                     );

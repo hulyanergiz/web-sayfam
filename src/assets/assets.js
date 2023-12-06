@@ -19,8 +19,8 @@ import atsign from "./socials/at-sign.svg";
 import instagram from "./socials/instagram.svg";
 
 /*Projects*/
-import workintech from "./projects/journey.png";
-import journey from "./projects/workintech.png";
+import workintech from "./projects/workintech.png";
+import journey from "./projects/journey.png";
 
 export const assets = {
   photos: { profilePhotoHeader, profilePhotoInProfile },
@@ -32,6 +32,7 @@ export const assets = {
     visualStudioLogo,
     figmaLogo,
   },
-  socials: { github, linkedin, twitter, codepen, atsign, instagram },
+  socialsHeader: { github, linkedin },
   projects: { workintech, journey },
+  socials: { twitter, codepen, atsign, instagram },
 };

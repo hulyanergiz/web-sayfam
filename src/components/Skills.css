@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter");
+
+:root {
+  --skills-header-color: #4832d3;
+  --skill-item-name-color: #777;
+}
+.dark {
+  --skills-box-bg: #252128;
+  --skills-header-color: #caf181;
+  --skill-item-name-color: #fff;
+}
+.skills-box {
+  background-color: var(--skills-box-bg);
+  display: flex;
+  flex-direction: row;
+  column-gap: 10%;
+  width: 100%;
+}
+
+.skills-header {
+  width: 28%;
+}
+.skills-header h2 {
+  color: var(--skills-header-color);
+  font-family: "Inter";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  margin-left: 63%;
+  text-align: start;
+}
+.skill-item-box {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+.skill-item {
+  width: 47%;
+  display: flex;
+  column-gap: 24px;
+  margin-bottom: 35px;
+  align-items: center;
+}
+.skill-item-name {
+  color: var(--skill-item-name-color);
+  font-family: "Inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+@media screen and (max-width: 1360px) {
+  .skills-box {
+    flex-direction: column;
+  }
+  .skill-item-box {
+    margin-left: 16%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .skills-header {
+    width: 24%;
+  }
+  .skills-header h2 {
+    margin-left: 30%;
+  }
+  .skill-item-box {
+    margin-left: 7%;
+  }
+  .skill-item-box {
+    margin-top: 60px;
+    display: flex;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .skill-item {
+    width: 70%;
+  }
+
+  .skill-item-box {
+    margin-top: 20px;
+    margin-left: 20%;
+  }
+}

@@ -3,13 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import ThemeProvider from "./contexts/ThemeContext";
 import LanguageProvider from "./contexts/LanguageContext";
 import FetchProvider from "./contexts/FetchContext";
 
@@ -17,9 +11,11 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <FetchProvider>
+      <ThemeProvider>
         <LanguageProvider>
           <App />
         </LanguageProvider>
+      </ThemeProvider>
     </FetchProvider>
   </React.StrictMode>
 );

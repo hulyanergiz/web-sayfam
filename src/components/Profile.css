@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter");
+
+:root {
+  --profile-box-bg: #4731d3;
+}
+.dark {
+  --profile-box-bg: #171043;
+}
+.profile-box {
+  background-color: var(--profile-box-bg);
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 95px;
+}
+.profile-left-box {
+  display: flex;
+  flex-direction: column;
+}
+.profile-header-box {
+  width: 100%;
+}
+.profile-header-box h2 {
+  color: #cbf281;
+  font-family: "Inter";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0.48px;
+  margin-left: 16%;
+  text-align: start;
+  margin-top: 60px;
+}
+.profile-info-photo-aboutme-box {
+  display: flex;
+  flex-direction: row;
+  width: 67%;
+  margin: auto;
+}
+
+.profile-header-info {
+  width: 35%;
+}
+.profile-basic-info h3,
+.about-me h3 {
+  font-family: "Inter";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  color: #fff;
+  text-align: start;
+}
+.profile-left-box {
+  display: flex;
+  flex-direction: column;
+}
+.profile-label-value {
+  display: flex;
+  flex-direction: row;
+  text-align: start;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+.profile-label {
+  width: 33%;
+  color: #cbf281;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0.16px;
+}
+.profile-value {
+  width: 67%;
+  color: #fff;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.16px;
+}
+
+.profile-label,
+.profile-value {
+  text-align: start;
+}
+.profile-photo-in-profile {
+  width: 30%;
+  margin-top: 32px;
+  padding-right: 80px;
+  padding-left: 5px;
+}
+.about-me {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  width: 35%;
+}
+.about-me p {
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  text-align: start;
+}
+@media screen and (max-width: 1100px) {
+  .profile-header-box h2 {
+    margin-left: 7%;
+  }
+  .profile-info-photo-aboutme-box {
+    width: 84%;
+  }
+}
+@media screen and (max-width: 850px) {
+  .profile-info-photo-aboutme-box {
+    flex-direction: column;
+  }
+  .profile-header-info,
+  .profile-photo-in-profile,
+  .about-me {
+    width: 100%;
+  }
+}

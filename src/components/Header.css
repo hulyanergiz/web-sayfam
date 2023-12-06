@@ -67,7 +67,6 @@
   font-weight: 700;
   line-height: normal;
   letter-spacing: 1.5px;
-  cursor: pointer;
 }
 .language-options {
   width: 60%;
@@ -75,6 +74,7 @@
   flex-direction: row;
   justify-content: flex-end;
   gap: 4px;
+  cursor: pointer;
 }
 .language-options-language {
   color: var(--language-color);

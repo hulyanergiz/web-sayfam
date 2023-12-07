@@ -119,4 +119,7 @@
   .project-item {
     flex-direction: column;
   }
+  .project-item img {
+    border-radius: 24px;
+  }
 }

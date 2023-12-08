@@ -18,7 +18,7 @@
 }
 
 .skills-header {
-  width: 28%;
+  width: 35%;
 }
 .skills-header h2 {
   color: var(--skills-header-color);
@@ -55,18 +55,18 @@
   line-height: 150%;
 }
 
-@media screen and (max-width: 1360px) {
+@media screen and (max-width: 1440px) {
   .skills-box {
     flex-direction: column;
+  }
+  .skills-header {
+    width: 24%;
   }
   .skill-item-box {
     margin-left: 16%;
   }
 }
 @media screen and (max-width: 1100px) {
-  .skills-header {
-    width: 24%;
-  }
   .skills-header h2 {
     margin-left: 30%;
   }

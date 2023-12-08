@@ -1,12 +1,40 @@
+:root {
+  --loading-bg: #4832d3;
+}
+.dark {
+  --loading-bg: #252128;
+}
 .App {
-  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pulseLoader {
+  height: 100vh;
+  background-color: var(--loading-bg);
+  color: #caf181 !important;
+}
+/* :root {
+  --loading-bg: #4832d3;
+}
+.dark {
+  --loading-bg: #252128;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.spinner {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--loading-bg);
 }
-
+.pulseLoader {
+  color: #caf181 !important; */
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
